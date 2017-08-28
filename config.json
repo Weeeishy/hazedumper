@@ -234,6 +234,10 @@
     "m_viewPunchAngle": {
       "netvar": "m_viewPunchAngle",
       "table": "DT_BasePlayer"
+    },
+	"m_zoomLevel": {
+      "netvar": "m_zoomLevel",
+      "table": "DT_WeaponCSBaseGun"
     }
   },
   "options": {
@@ -247,7 +251,7 @@
       "mode_subtract": true,
       "module": "engine.dll",
       "offset": 0,
-      "pattern": "A1 ? ? ? ? 33 D2 6A 00 6A 00 33 C9 89 B0"
+      "pattern": "A1 ? ? ? ? 33 D2 6A ? 6A ? 33 C9 89 B0 08 4E ? ? A1"
     },
     "dwClientState_GetLocalPlayer": {
       "extra": 2,
@@ -304,14 +308,6 @@
       "module": "engine.dll",
       "offset": 0,
       "pattern": "F3 0F 11 80 ? ? ? ? D9 46 04 D9 05"
-    },
-    "dwClientState_IsHLTV": {
-      "extra": 2,
-      "mode_read": true,
-      "mode_subtract": false,
-      "module": "engine.dll",
-      "offset": 0,
-      "pattern": "80 BF ? ? ? ? ? 0F 84 ? ? ? ? 32 DB"
     },
     "dwEntityList": {
       "extra": 1,
@@ -399,7 +395,7 @@
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "A1 ? ? ? ? C3 CC CC CC CC CC CC CC CC CC CC A1 ? ? ? ? B9"
+      "pattern": "A1 ? ? ? ? C3 CC CC CC CC CC CC CC CC CC CC A1"
     },
     "dwGlobalVars": {
       "extra": 1,
@@ -410,12 +406,12 @@
       "pattern": "68 ? ? ? ? 68 ? ? ? ? FF 50 08 85 C0"
     },
     "dwGlowObjectManager": {
-      "extra": 1,
+      "extra": 16,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 4,
-      "pattern": "A1 ? ? ? ? A8 01 75 4B"
+      "offset": 0,
+      "pattern": "0F 57 C0 C7 05 ? ? ? ? 00 00 00 00 0F 11 05 ? ? ? ? 68 ? ? ? ? 0F 28 05 ? ? ? ? 0F 11 05 ? ? ? ? C7 05 ? ? ? ? 00 00 00 00 C7 05 ? ? ? ? 00 00 00 00"
     },
     "dwInput": {
       "extra": 1,
@@ -479,7 +475,7 @@
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 44,
-      "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 18 35 ? ? ? ? 89 44 24 0C EB 0B"
+      "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 0C 35 ? ? ? ? 89 44 24 0C"
     },
     "dwSensitivityPtr": {
       "extra": 2,
@@ -487,14 +483,14 @@
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 18 35 ? ? ? ? 89 44 24 0C EB 0B"
+      "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 0C 35 ? ? ? ? 89 44 24 0C"
     },
     "dwViewMatrix": {
       "extra": 3,
       "mode_read": true,
       "mode_subtract": true,
       "module": "client.dll",
-      "offset": 176,
+      "offset": 158,
       "pattern": "0F 10 05 ? ? ? ? 8D 85 ? ? ? ? B9"
     },
     "dwWeaponTable": {
@@ -503,15 +499,15 @@
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "B9 ? ? ? ? 6A 00 FF 50 08 C3"
+      "pattern": "A1 ? ? ? ? 8B 44 C8 0C C3 CC"
     },
     "dwWeaponTableIndex": {
-      "extra": 2,
+      "extra": 3,
       "mode_read": true,
       "mode_subtract": false,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "39 86 ? ? ? ? 74 06 89 86 ? ? ? ? 8B 86"
+      "pattern": "0F B7 86 ? ? ? ? 5B"
     },
     "dwYawPtr": {
       "extra": 2,
@@ -519,7 +515,7 @@
       "mode_subtract": true,
       "module": "client.dll",
       "offset": 0,
-      "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 1C 35 ? ? ? ? 89 44 24 18 EB 0B 8B 01 8B 40 30 FF D0 D9 5C 24 18 F3 0F 10 06"
+      "pattern": "81 F9 ? ? ? ? 75 1D F3 0F 10 05 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 1C 35 ? ? ? ? 89 44 24 14 EB 0B 8B 01 8B 40 30 FF D0 D9 5C 24 14 F3 0F 10 06"
     },
     "dwZoomSensitivityRatioPtr": {
       "extra": 2,

@@ -1,5 +1,5 @@
-# Tue, 22 Aug 2017 20:01:05 +0200
-timestamp = 1503424865
+# Mon, 28 Aug 2017 07:37:40 +0300
+timestamp = 1503895060
 
 [netvars]
 m_ArmorValue = 45608
@@ -59,11 +59,10 @@ m_vecOrigin = 308
 m_vecVelocity = 272
 m_vecViewOffset = 260
 m_viewPunchAngle = 12304
+m_zoomLevel = 13120
 
 [signatures]
-dwClientState = 5915444
 dwClientState_GetLocalPlayer = 384
-dwClientState_IsHLTV = 19656
 dwClientState_Map = 652
 dwClientState_MapDirectory = 392
 dwClientState_MaxPlayer = 784
@@ -82,7 +81,6 @@ dwGameDir = 6564816
 dwGameRulesProxy = 83389548
 dwGetAllClasses = 83389760
 dwGlobalVars = 5914680
-dwGlowObjectManager = 83501624
 dwInput = 82642544
 dwInterfaceLinkList = 7233172
 dwLocalPlayer = 11176892
@@ -90,13 +88,8 @@ dwMouseEnable = 11199520
 dwMouseEnablePtr = 11199472
 dwPlayerResource = 49045948
 dwRadarBase = 82552740
-dwSensitivity = 11199164
-dwSensitivityPtr = 11199120
 dwSetClanTag = 543280
-dwViewMatrix = 78083332
-dwWeaponTable = 82645604
-dwWeaponTableIndex = 12796
-dwYawPtr = 11198592
+dwViewMatrix = 78083314
 dwZoomSensitivityRatioPtr = 11219176
 dwbSendPackets = 830634
 dwppDirect3DDevice9 = 642880

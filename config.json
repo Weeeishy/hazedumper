@@ -238,6 +238,10 @@
 	"m_zoomLevel": {
       "netvar": "m_zoomLevel",
       "table": "DT_WeaponCSBaseGun"
+    },
+	"m_bDormant": {
+      "netvar": "m_bDormant",
+      "table": "BaseEntity"
     }
   },
   "options": {

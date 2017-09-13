@@ -14,7 +14,7 @@
     "dwForceForward": 49070124,
     "dwForceLeft": 49070100,
     "dwForceRight": 49070112,
-    "dwGameDir": 6564816,
+    "dwGameDir": 6564944,
     "dwGameRulesProxy": 83406396,
     "dwGetAllClasses": 83406608,
     "dwGlobalVars": 5914680,
@@ -28,7 +28,7 @@
     "dwViewMatrix": 78100162,
     "dwZoomSensitivityRatioPtr": 11235544,
     "dwbSendPackets": 830634,
-    "dwppDirect3DDevice9": 642880,
+    "dwppDirect3DDevice9": 663360,
     "dwSetClanTag": 543280,
     "m_pStudioHdr": 10556
   },
@@ -92,13 +92,13 @@
     "m_viewPunchAngle": 12304,
     "m_zoomLevel": 13120
   },
-  "timestamp": 1504828138,
+  "timestamp": 1505285155,
   "modules": {
     "client.dll": {
       "size": 84836352
     },
     "engine.dll": {
-      "size": 9207808
+      "size": 9203712
     }
   }
 }

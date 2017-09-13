@@ -1,5 +1,5 @@
-# Fri,  8 Sep 2017 02:48:58 +0300
-timestamp = 1504828138
+# Wed, 13 Sep 2017 09:45:55 +0300
+timestamp = 1505285155
 
 [netvars]
 m_ArmorValue = 45608
@@ -76,7 +76,7 @@ dwForceBackward = 49070136
 dwForceForward = 49070124
 dwForceLeft = 49070100
 dwForceRight = 49070112
-dwGameDir = 6564816
+dwGameDir = 6564944
 dwGameRulesProxy = 83406396
 dwGetAllClasses = 83406608
 dwGlobalVars = 5914680
@@ -91,5 +91,5 @@ dwSetClanTag = 543280
 dwViewMatrix = 78100162
 dwZoomSensitivityRatioPtr = 11235544
 dwbSendPackets = 830634
-dwppDirect3DDevice9 = 642880
+dwppDirect3DDevice9 = 663360
 m_pStudioHdr = 10556

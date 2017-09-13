@@ -2,7 +2,7 @@
 #include <cstddef>
 
 // Offsets timestamp
-// Fri,  8 Sep 2017 02:48:58 +0300
+// Wed, 13 Sep 2017 09:45:55 +0300
 
 namespace hazedumper {
 namespace netvars {
@@ -80,7 +80,7 @@ constexpr ::std::ptrdiff_t dwForceBackward = 0x2ECC038;
 constexpr ::std::ptrdiff_t dwForceForward = 0x2ECC02C;
 constexpr ::std::ptrdiff_t dwForceLeft = 0x2ECC014;
 constexpr ::std::ptrdiff_t dwForceRight = 0x2ECC020;
-constexpr ::std::ptrdiff_t dwGameDir = 0x642BD0;
+constexpr ::std::ptrdiff_t dwGameDir = 0x642C50;
 constexpr ::std::ptrdiff_t dwGameRulesProxy = 0x4F8AE3C;
 constexpr ::std::ptrdiff_t dwGetAllClasses = 0x4F8AF10;
 constexpr ::std::ptrdiff_t dwGlobalVars = 0x5A4038;
@@ -94,7 +94,7 @@ constexpr ::std::ptrdiff_t dwRadarBase = 0x4EBE974;
 constexpr ::std::ptrdiff_t dwViewMatrix = 0x4A7B6C2;
 constexpr ::std::ptrdiff_t dwZoomSensitivityRatioPtr = 0xAB70D8;
 constexpr ::std::ptrdiff_t dwbSendPackets = 0xCACAA;
-constexpr ::std::ptrdiff_t dwppDirect3DDevice9 = 0x9CF40;
+constexpr ::std::ptrdiff_t dwppDirect3DDevice9 = 0xA1F40;
 constexpr ::std::ptrdiff_t dwSetClanTag = 0x84A30;
 constexpr ::std::ptrdiff_t m_pStudioHdr = 0x293C;
 } // namespace signatures

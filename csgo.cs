@@ -1,7 +1,7 @@
 using System;
 
 // Offsets timestamp
-// Fri,  8 Sep 2017 02:48:58 +0300
+// Wed, 13 Sep 2017 09:45:55 +0300
 
 namespace hazedumper
 {
@@ -82,7 +82,7 @@ namespace hazedumper
         public const Int32 dwForceForward = 0x2ECC02C;
         public const Int32 dwForceLeft = 0x2ECC014;
         public const Int32 dwForceRight = 0x2ECC020;
-        public const Int32 dwGameDir = 0x642BD0;
+        public const Int32 dwGameDir = 0x642C50;
         public const Int32 dwGameRulesProxy = 0x4F8AE3C;
         public const Int32 dwGetAllClasses = 0x4F8AF10;
         public const Int32 dwGlobalVars = 0x5A4038;
@@ -96,7 +96,7 @@ namespace hazedumper
         public const Int32 dwViewMatrix = 0x4A7B6C2;
         public const Int32 dwZoomSensitivityRatioPtr = 0xAB70D8;
         public const Int32 dwbSendPackets = 0xCACAA;
-        public const Int32 dwppDirect3DDevice9 = 0x9CF40;
+        public const Int32 dwppDirect3DDevice9 = 0xA1F40;
         public const Int32 dwSetClanTag = 0x84A30;
         public const Int32 m_pStudioHdr = 0x293C;
     }

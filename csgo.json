@@ -14,12 +14,12 @@
     "dwForceForward": 49070124,
     "dwForceLeft": 49070100,
     "dwForceRight": 49070112,
-    "dwGameDir": 6564944,
+    "dwGameDir": 6564816,
     "dwGameRulesProxy": 83406396,
     "dwGetAllClasses": 83406608,
     "dwGlobalVars": 5914680,
     "dwInput": 82659392,
-    "dwInterfaceLinkList": 7248788,
+    "dwInterfaceLinkList": 7248692,
     "dwLocalPlayer": 11193260,
     "dwMouseEnable": 11215888,
     "dwMouseEnablePtr": 11215840,
@@ -92,7 +92,7 @@
     "m_viewPunchAngle": 12304,
     "m_zoomLevel": 13120
   },
-  "timestamp": 1505285155,
+  "timestamp": 1505465942,
   "modules": {
     "client.dll": {
       "size": 84836352

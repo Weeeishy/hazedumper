@@ -7,29 +7,30 @@
     "dwClientState_PlayerInfo": 21056,
     "dwClientState_State": 264,
     "dwClientState_ViewAngles": 19728,
-    "dwEntityList": 78164492,
-    "dwForceAttack": 49075632,
-    "dwForceAttack2": 49075644,
-    "dwForceBackward": 49075656,
-    "dwForceForward": 49075644,
-    "dwForceJump": 82977912,
-    "dwForceLeft": 49075716,
-    "dwForceRight": 49075728,
-    "dwGameDir": 6578408,
-    "dwGameRulesProxy": 83412924,
-    "dwGetAllClasses": 83413136,
-    "dwGlobalVars": 5928256,
-    "dwInput": 82664912,
-    "dwLocalPlayer": 11197932,
-    "dwMouseEnable": 11220560,
-    "dwMouseEnablePtr": 11220512,
-    "dwPlayerResource": 49068316,
-    "dwRadarBase": 82575108,
-    "dwViewMatrix": 78105682,
-    "dwZoomSensitivityRatioPtr": 11240216,
-    "dwbSendPackets": 840234,
+    "dwEntityList": 78084908,
+    "dwForceAttack": 48996000,
+    "dwForceAttack2": 48996012,
+    "dwForceBackward": 48996132,
+    "dwForceForward": 48996072,
+    "dwForceJump": 82898324,
+    "dwForceLeft": 48996144,
+    "dwForceRight": 48996108,
+    "dwGameDir": 6401896,
+    "dwGameRulesProxy": 83333340,
+    "dwGetAllClasses": 83333548,
+    "dwGlobalVars": 5756232,
+    "dwInput": 82585344,
+    "dwInterfaceLinkList": 7183108,
+    "dwLocalPlayer": 11120108,
+    "dwMouseEnable": 11142736,
+    "dwMouseEnablePtr": 11142688,
+    "dwPlayerResource": 48988732,
+    "dwRadarBase": 82495524,
+    "dwViewMatrix": 78026098,
+    "dwZoomSensitivityRatioPtr": 11162392,
+    "dwbSendPackets": 839306,
     "dwppDirect3DDevice9": 663360,
-    "dwSetClanTag": 552208,
+    "dwSetClanTag": 551376,
     "m_pStudioHdr": 10556
   },
   "netvars": {
@@ -92,13 +93,13 @@
     "m_viewPunchAngle": 12304,
     "m_zoomLevel": 13120
   },
-  "timestamp": 1510654181,
+  "timestamp": 1511278724,
   "modules": {
     "client.dll": {
-      "size": 84860928
+      "size": 84774912
     },
     "engine.dll": {
-      "size": 9232384
+      "size": 9048064
     }
   }
 }
